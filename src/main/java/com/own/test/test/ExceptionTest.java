@@ -1,4 +1,4 @@
-package com.own.test;
+package com.own.test.test;
 
 /**
  * @author : xy
@@ -14,9 +14,9 @@ public class ExceptionTest {
             System.out.println("ArrayIndexOutOfBoundsException");
         } catch (Exception ex2) {
             System.out.println("Exception");
-        }finally {
+        } finally {
             System.out.println("finally");
-
+            
         }
     }
 }

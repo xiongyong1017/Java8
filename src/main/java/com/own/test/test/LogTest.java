@@ -9,6 +9,7 @@ public class LogTest {
 
     }
 
+
     @Test
     public void testLoger() {
         final Logger logger = Logger.getLogger("TestErrOut");
@@ -17,7 +18,7 @@ public class LogTest {
         logger.warn(" This is warn!!!");
         logger.error(" This is error!!!");
         logger.fatal(" This is fatal!!!");
-        
+
     }
 
 }

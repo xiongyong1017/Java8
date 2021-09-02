@@ -67,7 +67,6 @@ public class Merge1 {
         int array1Len = array1.length;
         int array2Len = array2.length;
         int destLen = destInts.length;
-
         // 只需要以新的集合destInts的长度为标准，遍历一次即可
         for (int index = 0, array1Index = 0, array2Index = 0; index < destLen; index++) {
             int value1 = array1Index >= array1Len ? Integer.MAX_VALUE : array1[array1Index];
